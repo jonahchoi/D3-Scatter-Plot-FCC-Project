@@ -1,0 +1,19 @@
+body{
+  
+}
+#container{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+svg{
+  border: solid;
+  padding: 25px;
+}
+#tooltip{
+  pointer-events:none;
+  padding:10px;
+  border:solid;
+  border-radius:4px;
+}
